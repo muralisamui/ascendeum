@@ -1,0 +1,55 @@
+.app-cont {
+  height: 100vh;
+  width: 100%;
+}
+
+.btn-cont {
+  border: 1px solid #000000;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.input-sec {
+  width: 30px;
+}
+
+.game-and-react-cont{
+  border: 1px solid black;
+}
+
+.game-cont{
+  border: 1px solid #000000;
+  position: relative;
+  width: 500px;
+  height: 200px;
+  margin: 20px auto;
+}
+.pixel-object{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  cursor: pointer;
+}
+
+.reaction-cont{
+
+}
+table{
+  margin-top: 10px;
+  border-collapse: collapse;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, th, td {
+  border : 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
